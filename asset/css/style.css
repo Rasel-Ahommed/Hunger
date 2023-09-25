@@ -202,7 +202,6 @@
 }
 .dsk_fd_img img {
     width: calc(50px + 38vw);
-    float: right;
     padding-right: 10%;
     filter: drop-shadow(0px 25px 20px #333333);
 }
@@ -231,7 +230,7 @@
 .dubble_leaf {
     width: 97%;
     position: absolute;
-    top: -133px;
+    top: -17%;
 }
 .addHead {
     text-align: center;
@@ -362,28 +361,76 @@ img.sub_leaf {
     filter: drop-shadow(0px 4px 7px #333333);
 }
 
+
+
 /* make responsive  */
 @media screen and (max-width:700px){
 .navbar{
     justify-content: center;
 }
+.leafImg {
+    bottom: -6px;
+}
+.parent {
+    display: block;
+}
+.rightChild .noodlesImg {
+    width: calc(30px + 59vw);
+    margin-left: 25%;
+}
+.foodImg {
+    width: calc(20px + 22vw);
+    top: calc(14% + 49vw);
+    left: 13%;
+}
 .ItemParent,.infoPrante{
     display: block;
 }
-.leafImg{
-    display: none;
+ .noodlesImg {
+    margin-left: 0;
 }
 .discoutItem {
-    display: grid;
+    display: block;
+    margin: auto;
+}
+.dsk_fd_img {
+    text-align: center;
+}
+.dsk_fd_img img {
+    width: calc(50px + 38vw);
+    padding: 0;
 }
 .dis_fd_dtls {
-    padding: 2% 0%;
+    padding: 11% 0 0 0;
+}
+.dubble_leaf {
+    top: -32px;
+}
+.advertisement h1 {
+    font-size: 16px;
 }
 img.pizza {
-    width: calc(108px + 13vw);
+    width: calc(108px + 46vw);
+    left: 13%;
+    top: calc(20px + 0.5vw);
 }
 button.subBtn {
-    margin-left: 54%;
-    margin-top: 10px;
+    margin-left: 45%;
+    margin-top: -41px;
+    position: absolute;
+    width: calc(35px + 9vw);
+    padding: 15px;
+}
+.advrDtlsContiner {
+    display: block;
+}
+.advrDtlsBox h1 {
+    padding: 4%;
+}
+.advrFoter {
+    padding: 0;
+}
+img.sub_leaf {
+    top: -18px;
 }
 }
