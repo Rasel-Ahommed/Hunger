@@ -20,7 +20,7 @@
 }
 .topSection{
     background-color: black;
-    background-image: url("../image/Texture.png");
+    background-image: url("../image/Texture.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
@@ -221,7 +221,7 @@
 
 /* advertisement section  */
 .advertisement{
-    background: url(../image/Texture.png);
+    background: url(../image/Texture.webp);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
